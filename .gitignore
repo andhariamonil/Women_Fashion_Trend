@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep folder structure, ignore the files)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Logs
+logs/*.json
+logs/*.log
+
+# Reports (uncomment if generated and not needed in repo)
+# reports/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
