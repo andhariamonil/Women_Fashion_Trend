@@ -1,0 +1,18 @@
+Feature,Count,Mean,Median,Standard_Deviation,Minimum,Maximum,Skewness,Kurtosis,Skew_Interpretation,Suggested_Action
+price,1539,8.306086744639376,8.0,3.7010393754319586,1.0,18.7625,0.47699609828394046,-0.056308919805687266,Approximately symmetric,No major skewness correction indicated
+retail_price,1539,18.800844704353477,10.0,17.603829248987083,1.0,54.5,1.176128161609148,-0.18543297860140845,Positively skewed,Consider log1p or Power Transformation after checking values
+units_sold,1539,3152.8895386614686,1000.0,4215.210498689063,1.0,12350.0,1.165069067949461,-0.20586784626842305,Positively skewed,Consider log1p or Power Transformation after checking values
+rating,1539,3.8228395061728393,3.85,0.5086190100378942,1.0,5.0,-0.5473695733222688,2.8921417885238365,Negatively skewed,Consider Power Transformation after checking values
+rating_count,1539,570.2706302794022,161.0,742.2962589437792,0.0,2143.5,1.2139888155819765,-0.01790302063597107,Positively skewed,Consider log1p or Power Transformation after checking values
+rating_five_count,1496,281.62098930481284,84.0,365.0367151561569,0.0,1058.0,1.2180595664843914,-0.00037959545979852704,Positively skewed,Consider log1p or Power Transformation after checking values
+rating_four_count,1496,113.16711229946524,33.0,146.1455915438749,0.0,420.0,1.1971425124108077,-0.07131018005583413,Positively skewed,Consider log1p or Power Transformation after checking values
+rating_three_count,1496,86.22125668449198,26.0,112.29057434314184,0.0,329.0,1.23811217624303,0.05876294780453216,Positively skewed,Consider log1p or Power Transformation after checking values
+rating_two_count,1496,40.61363636363637,12.0,52.885278007955264,0.0,157.0,1.245140886814649,0.10304872455641452,Positively skewed,Consider log1p or Power Transformation after checking values
+rating_one_count,1496,62.86129679144385,21.0,79.99517531055255,0.0,236.5,1.22188947236994,0.043965746846368475,Positively skewed,Consider log1p or Power Transformation after checking values
+badges_count,1539,0.0,0.0,0.0,0.0,0.0,,,Negatively skewed,Consider Power Transformation after checking values
+product_variation_inventory,1539,33.34762833008447,50.0,21.246295765929297,1.0,50.0,-0.5901065408917392,-1.5435899371434807,Negatively skewed,Consider Power Transformation after checking values
+shipping_option_price,1539,2.3216374269005846,2.0,0.9070198252429502,1.0,4.5,0.28717727410232863,-0.36349687178382456,Approximately symmetric,No major skewness correction indicated
+countries_shipped_to,1539,37.851851851851855,40.0,10.95439839049474,13.0,61.0,-0.02378841632898438,0.06935266943839266,Approximately symmetric,No major skewness correction indicated
+inventory_total,1539,50.0,50.0,0.0,50.0,50.0,,,Negatively skewed,Consider Power Transformation after checking values
+merchant_rating_count,1539,16643.268680961664,8197.0,19349.134655545116,0.0,58331.25,1.1993729891163971,0.04111032226207422,Positively skewed,Consider log1p or Power Transformation after checking values
+merchant_rating,1539,4.0348359891513175,4.045170200666179,0.2033421337678592,2.3333333333333335,5.0,-1.0456504344191455,5.5198458898775,Negatively skewed,Consider Power Transformation after checking values

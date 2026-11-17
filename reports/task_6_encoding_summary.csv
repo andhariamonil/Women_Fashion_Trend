@@ -1,0 +1,15 @@
+Feature,Unique_Categories,Encoding_Method
+currency_buyer,1,One-Hot Encoding
+uses_ad_boosts,2,One-Hot Encoding
+badge_local_product,2,One-Hot Encoding
+badge_product_quality,2,One-Hot Encoding
+badge_fast_shipping,2,One-Hot Encoding
+product_color,102,Frequency Encoding
+product_variation_size_id,107,Frequency Encoding
+shipping_option_name,15,Frequency Encoding
+shipping_is_express,2,One-Hot Encoding
+urgency_text,3,One-Hot Encoding
+origin_country,7,One-Hot Encoding
+merchant_has_profile_picture,2,One-Hot Encoding
+badges_count,1,One-Hot Encoding
+inventory_total,1,One-Hot Encoding
