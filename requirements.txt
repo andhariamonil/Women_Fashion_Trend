@@ -6,3 +6,6 @@ ipykernel>=6.0
 matplotlib>=3.7
 seaborn>=0.12
 scipy>=1.11
+statsmodels>=0.14
+vaderSentiment>=3.3
+textblob>=0.17
