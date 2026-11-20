@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows_in,rows_segmented,selected_method,n_segments,kmeans_log1p_edges,tree_log1p_edges,output_dataset
+Task 15 - Dynamic Product Sales Segmentation,completed,2026-11-20T15:12:11,womens_clothing_final.csv,1539,1539,K-means,6,"[3.0646243410008274, 4.27347307478279, 5.761937648078238, 7.713073975367063, 8.907944161376765]","[4.273473024368286, 5.761937618255615, 7.713073968887329, 8.863916873931885, 9.315966606140137]",womens_clothing_product_segmented.csv

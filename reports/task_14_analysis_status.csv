@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows_in,rows_with_text,cv_roc_auc_mean,cv_roc_auc_std,output_dataset
+Task 14 - Product Text NLP Analysis,completed,2026-11-20T15:11:54,womens_clothing_final.csv,1539,1539,0.7359202346068207,0.012927403770066603,womens_clothing_product_text_features.csv

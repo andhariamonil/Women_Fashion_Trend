@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows_in,rows_out,n_tags_analyzed,min_support,n_rules,output_dataset
+Task 13 - Product Tag Co-occurrence Analysis,completed,2026-11-20T15:11:31,womens_clothing_final.csv,1539,1539,40,0.02,11706,womens_clothing_product_tag_features.csv
