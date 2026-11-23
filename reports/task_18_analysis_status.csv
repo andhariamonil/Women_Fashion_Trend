@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows_in,rows_out,target,columns_encoded,naive_onehot_width,engineered_width,cv_auc_naive,cv_auc_engineered,output_dataset
+Task 18 - Categorical Encoding (high cardinality),completed,2026-11-23T16:51:56,womens_clothing_engagement_features.csv,1539,1539,Rating >= 4,7,236,33,0.5922,0.5929,womens_clothing_high_cardinality_encoded.csv

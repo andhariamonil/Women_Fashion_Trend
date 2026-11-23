@@ -1,0 +1,8 @@
+threshold,value
+z_high_threshold,0.5
+mean,-1.7313419487331875e-18
+std,0.9999999985621542
+index_cutoff_z,0.4999999992810771
+p75,0.656928963122609
+p90,1.2617726795242414
+recent_activity_median,1.25

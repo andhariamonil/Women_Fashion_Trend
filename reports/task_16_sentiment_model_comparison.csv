@@ -1,0 +1,4 @@
+model,n_eval,auc_pos_vs_neg,spearman_vs_rating,domain_model_used
+VADER,597,0.4249,0.1016,TF-IDF + LogReg
+TF-IDF + LogReg (OOF),597,0.8998,0.1546,TF-IDF + LogReg
+Ensemble sentiment_score,597,0.5304,0.1442,TF-IDF + LogReg

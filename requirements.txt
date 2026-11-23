@@ -11,3 +11,6 @@ vaderSentiment>=3.3
 jupyter
 ipykernel
 nbformat
+# Task 16 (fine-tuned DistilBERT). Optional: without these the notebook falls back to TF-IDF + LogReg.
+torch>=2.0
+transformers>=4.38

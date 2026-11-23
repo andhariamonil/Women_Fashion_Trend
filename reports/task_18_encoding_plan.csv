@@ -1,0 +1,8 @@
+column,n_unique,strategy,applied,new_columns,naive_width,engineered_width
+product_color,101,target + frequency + SVD,target + frequency + 5 SVD comps (explain 51% of binned one-hot variance),7,236,33
+product_variation_size_id,106,target + frequency + SVD,target + frequency + 5 SVD comps (explain 82% of binned one-hot variance),7,236,33
+shipping_option_name,15,bin + one-hot + target,binned (2 levels) one-hot + target,3,236,33
+urgency_text,2,one-hot,one-hot,3,236,33
+origin_country,6,one-hot,one-hot,7,236,33
+sentiment_label,3,one-hot,one-hot,3,236,33
+engagement_level,3,one-hot,one-hot,3,236,33
