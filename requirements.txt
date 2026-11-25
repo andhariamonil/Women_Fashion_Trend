@@ -8,6 +8,8 @@ plotly>=5.18
 mlxtend>=0.23
 textstat>=0.7
 vaderSentiment>=3.3
+nltk>=3.8
+shap>=0.44
 jupyter
 ipykernel
 nbformat

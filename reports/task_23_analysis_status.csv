@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows,chosen_scheme,chosen_encoding,neg_threshold,pos_threshold,cv_auc_chosen,cv_auc_no_sentiment,beats_baseline,vader_monotonic,title_tfidf_auc,columns_added,output_dataset
+Task 23 - Rating sentiment encoding,completed,2026-11-25T15:05:01,womens_clothing_pca_features.csv,1539,median_pm_0.75mad,pos_vs_rest,3.6553,4.065,0.9842,0.9853,False,True,0.8099,14,womens_clothing_rating_sentiment_encoded.csv

@@ -1,0 +1,9 @@
+scheme,vader_neg,vader_neu,vader_pos,vader_monotonic,kruskal_p,eta_squared,spearman_label_vs_vader,title_tfidf_auc_pos_vs_neg,vote_pos_share_neg,vote_pos_share_neu,vote_pos_share_pos,vote_monotonic,selected
+fixed_classic (3 / 4),0.13167,0.22559,0.27049,True,0.0645,0.00227,0.05801,0.54375,0.49011,0.5799,0.77621,True,False
+tertiles,0.20898,0.24039,0.26496,True,0.01015,0.00467,0.07598,0.78155,0.52892,0.60395,0.77354,True,False
+outer_quartiles,0.19348,0.24039,0.27847,True,0.00065,0.00826,0.09561,0.80957,0.51795,0.62439,0.7764,True,False
+mean_pm_0.5sd,0.19851,0.2448,0.26541,True,0.00169,0.00701,0.08535,0.79553,0.52334,0.60178,0.77561,True,False
+median_pm_0.75mad,0.19691,0.24036,0.28492,True,0.00068,0.00819,0.09727,0.8099,0.5187,0.63779,0.77996,True,True
+kmeans_1d,0.19219,0.23536,0.26507,True,0.0056,0.00545,0.07914,0.80829,0.49756,0.58699,0.77026,True,False
+gmm_3,0.18847,0.23553,0.26606,True,0.00445,0.00575,0.08078,0.80644,0.49463,0.58888,0.77268,True,False
+vote_net_mean_pm_0.5sd,0.19361,0.24269,0.26719,True,0.00328,0.00615,0.08436,0.79742,0.40945,0.64984,0.79671,True,False

@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows,target,candidate_features,excluded_columns,rfe_selected_features,holdout_auc_all,holdout_auc_rfe,fit_speedup_rfe,mean_pairwise_rank_corr,top_feature_consensus,output_dataset
+"Task 24 - Feature importance, SHAP, RFE",completed,2026-11-25T15:07:39,womens_clothing_rating_sentiment_encoded.csv,1539,high_sales,95,31,19,0.8154,0.8302,1.16,0.608,merchant_rating_count,womens_clothing_feature_selected.csv

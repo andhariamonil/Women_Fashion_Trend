@@ -1,0 +1,8 @@
+pipeline,vt_threshold,n_input_cols,n_kept_cols,k,heldout_orig_variance_explained,fit_seconds,downstream_cv_auc,full_onehot_cv_auc,compression_ratio,selected
+PCA (no selection),0.0,5147,5147,32,0.37394,0.61181,0.68459,0.76373,160.8,False
+VarianceThreshold(0.001) -> PCA,0.001,5147,1718,32,0.37466,0.63847,0.68475,0.76373,160.8,False
+VarianceThreshold(0.003) -> PCA,0.003,5147,729,32,0.37567,0.16517,0.68363,0.76373,160.8,True
+VarianceThreshold(0.005) -> PCA,0.005,5147,389,32,0.37506,0.20752,0.68047,0.76373,160.8,False
+VarianceThreshold(0.01) -> PCA,0.01,5147,235,32,0.37483,0.32903,0.68243,0.76373,160.8,False
+VarianceThreshold(0.02) -> PCA,0.02,5147,127,32,0.36848,0.17214,0.67911,0.76373,160.8,False
+VarianceThreshold(0.003) -> Autoencoder -> PCA,0.003,5147,729,32,0.31979,9.13113,0.67911,0.76373,160.8,False

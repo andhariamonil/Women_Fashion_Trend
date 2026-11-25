@@ -1,0 +1,5 @@
+feature_set,n_features,holdout_auc,fit_seconds,predict_seconds,model_size_kb,auc_change_vs_all,speedup_fit,size_reduction
+all features,95,0.815354,0.776856,0.087833,5236.28418,0.0,1.0,0.0
+RFE selected,19,0.830166,0.671899,0.08296,5178.720703,0.014811,1.156209,0.010993
+SHAP top-19,19,0.819246,0.683601,0.107457,5297.517578,0.003891,1.136417,-0.011694
+consensus top-19,19,0.85279,0.924896,0.107166,5230.300781,0.037436,0.839939,0.001143

@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows,categorical_columns,input_dimensions,k_components,selected_pipeline,heldout_variance_explained,downstream_auc_selected,downstream_auc_full_onehot,columns_added,output_dataset
+Task 22 - PCA dimensionality reduction,completed,2026-11-25T15:01:53,womens_clothing_high_cardinality_encoded.csv,1539,product_color;product_variation_size_id;shipping_option_name;merchant_title;merchant_name;merchant_id;product_text,5147,32,VarianceThreshold(0.003) -> PCA,0.3757,0.6836,0.7637,32,womens_clothing_pca_features.csv

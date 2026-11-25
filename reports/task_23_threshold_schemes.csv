@@ -1,0 +1,9 @@
+scheme,basis,neg_below,pos_from,share_negative,share_neutral,share_positive,min_class_share,selected
+fixed_classic (3 / 4),shrunk rating,3.0,4.0,0.0026,0.7115,0.2859,0.0026,False
+tertiles,shrunk rating,3.72932,3.95922,0.33203,0.33333,0.33463,0.33203,False
+outer_quartiles,shrunk rating,3.65251,4.02618,0.25016,0.49968,0.25016,0.25016,False
+mean_pm_0.5sd,shrunk rating,3.69026,3.96744,0.28785,0.38661,0.32554,0.28785,False
+median_pm_0.75mad,shrunk rating,3.65528,4.06502,0.25341,0.54841,0.19818,0.19818,True
+kmeans_1d,shrunk rating,3.58667,3.94658,0.17739,0.46979,0.35283,0.17739,False
+gmm_3,shrunk rating,3.55559,3.95576,0.16374,0.49708,0.33918,0.16374,False
+vote_net_mean_pm_0.5sd,vote net index,0.30607,0.56982,0.24107,0.46004,0.2989,0.24107,False
