@@ -10,6 +10,7 @@ textstat>=0.7
 vaderSentiment>=3.3
 nltk>=3.8
 shap>=0.44
+statsmodels>=0.14
 jupyter
 ipykernel
 nbformat

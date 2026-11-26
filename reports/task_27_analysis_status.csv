@@ -1,0 +1,2 @@
+task,status,run_at,feature_set,n_features,ridge_best_alpha,lasso_best_alpha,lasso_nonzero_best,lasso_nonzero_1se,nested_cv_rmse_ols,nested_cv_rmse_ridge,nested_cv_rmse_lasso,best_model,best_r2
+Task 27 - Lasso and Ridge regression,completed,2026-11-26T15:53:50,pool,124,136.64483,0.02759,80,61,1.7917,1.7822,1.7753,Lasso,0.3375

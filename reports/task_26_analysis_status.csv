@@ -1,0 +1,2 @@
+task,status,run_at,rows,n_features,cv5_rmse,cv5_mae,cv5_r2,cv10_r2,heteroscedasticity_detected,resid_sd_ratio_max_min,influential_points,outliers_gt3,residuals_normal_shapiro_p,output_dataset
+Task 26 - Regression evaluation and residual analysis,completed,2026-11-26T15:51:44,1539,25,1.7775,1.4622,0.336,0.3345,True,1.45,51,6,0.0,womens_clothing_regression_predictions.csv

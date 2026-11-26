@@ -1,0 +1,8 @@
+test,statistic,p_value,tests_for,reject_at_5pct,skew,excess_kurtosis
+Breusch-Pagan (Koenker),63.45934,3.4e-05,variance depends linearly on features,True,-0.279918,-0.281631
+White,408.636316,0.003241,general form (squares + cross terms),True,-0.279918,-0.281631
+Goldfeld-Quandt (sorted by fitted),1.112656,0.145805,variance differs between low and high fitted values,False,-0.279918,-0.281631
+Spearman |resid| vs fitted,0.043214,0.090134,monotone variance trend,False,-0.279918,-0.281631
+Levene across fitted deciles,8.251119,0.0,equal variance across deciles,True,-0.279918,-0.281631
+Shapiro-Wilk (normal residuals),0.989761,0.0,normality,True,-0.279918,-0.281631
+Jarque-Bera (normal residuals),25.183995,3e-06,skew + kurtosis normality,True,-0.279918,-0.281631
