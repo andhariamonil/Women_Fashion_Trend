@@ -1,0 +1,2 @@
+task,status,run_at,rows,model,interval_level,holdout_coverage,calibration_slope,mean_residual,groups_tested,biased_groups_fdr5,html_files,output_dataset
+Task 29 - Regression visualization,completed,2026-11-27T16:11:54,1935,HistGradientBoosting,0.9,0.8847,1.0585,-0.03689,5,4,task_29_actual_vs_predicted.html; task_29_residual_analysis.html,womens_clothing_regression_results.csv

@@ -1,0 +1,27 @@
+feature,coef_per_sd,odds_ratio_per_sd,or_ci_low,or_ci_high,selection_frequency,ci_excludes_1,univariate_auc,direction
+merchant_rating,0.255933,1.291666,1.176893,1.434396,1.0,True,0.667468,raises recommendation odds
+tag_rarity,0.058424,1.060164,1.0,1.185204,0.84,False,0.598786,raises recommendation odds
+log_retail_price,0.0,1.0,1.0,1.061492,0.16,False,0.544404,lowers recommendation odds
+discount_pct,0.0,1.0,1.0,1.022128,0.08,False,0.5194,lowers recommendation odds
+price_to_retail,0.0,1.0,0.978351,1.0,0.08,False,0.4806,lowers recommendation odds
+ship_to_price,0.0,1.0,1.0,1.0,0.0,False,0.483092,lowers recommendation odds
+log_merchant_ratings,0.0,1.0,1.0,1.0,0.0,False,0.529902,lowers recommendation odds
+uses_ad_boosts,0.0,1.0,1.0,1.0,0.0,False,0.474792,lowers recommendation odds
+express_shipping,0.0,1.0,1.0,1.0,0.0,False,0.502681,lowers recommendation odds
+log_price,0.0,1.0,1.0,1.0,0.0,False,0.536196,lowers recommendation odds
+title_words,0.0,1.0,1.0,1.0,0.0,False,0.52935,lowers recommendation odds
+title_caps_ratio,0.0,1.0,1.0,1.005501,0.04,False,0.538639,lowers recommendation odds
+title_keyword_stuffing,0.0,1.0,1.0,1.0,0.0,False,0.510186,lowers recommendation odds
+title_digits,0.0,1.0,1.0,1.0,0.005,False,0.516414,lowers recommendation odds
+n_tags,0.0,1.0,1.0,1.0,0.005,False,0.537748,lowers recommendation odds
+color_black,0.0,1.0,1.0,1.01161,0.03,False,0.528014,lowers recommendation odds
+color_white,0.0,1.0,1.0,1.0,0.0,False,0.486026,lowers recommendation odds
+color_red,0.0,1.0,1.0,1.0,0.02,False,0.482068,lowers recommendation odds
+color_pink,0.0,1.0,1.0,1.0,0.0,False,0.495481,lowers recommendation odds
+color_blue,0.0,1.0,1.0,1.0,0.0,False,0.495783,lowers recommendation odds
+size_XS,0.0,1.0,1.0,1.0,0.01,False,0.477501,lowers recommendation odds
+size_S,0.0,1.0,1.0,1.0,0.005,False,0.502345,lowers recommendation odds
+size_M,0.0,1.0,1.0,1.0,0.005,False,0.51389,lowers recommendation odds
+size_L,0.0,1.0,1.0,1.000005,0.025,False,0.509359,lowers recommendation odds
+merchant_quality_x_size,0.0,1.0,1.0,1.0,0.0,False,0.564244,lowers recommendation odds
+discount_x_ads,0.0,1.0,1.0,1.009597,0.035,False,0.520501,lowers recommendation odds

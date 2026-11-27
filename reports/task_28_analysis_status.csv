@@ -1,0 +1,2 @@
+task,status,run_at,rows,n_features,n_iter_budget,bayesian_available,best_search_method_hgb,champion_model,champion_search,cv_rmse,holdout_rmse,holdout_r2,nested_cv_rmse,output_dataset
+Task 28 - Hyperparameter tuning,completed,2026-11-27T16:05:54,1539,88,30,True,Bayesian (Optuna TPE),HistGradientBoosting,Bayesian (Optuna TPE),1.4774,1.4832,0.5233,1.499,womens_clothing_tuned_regression_predictions.csv

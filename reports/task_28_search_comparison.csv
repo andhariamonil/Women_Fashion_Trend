@@ -1,0 +1,4 @@
+method,evaluations,seconds,best_cv_rmse,best_params,holdout_rmse,holdout_mae,holdout_r2,cv_to_holdout_gap
+GridSearchCV,16,17.098381,1.496168,"{'l2_regularization': 1.0, 'learning_rate': 0.1, 'max_depth': 6, 'min_samples_leaf': 30}",1.541314,1.215954,0.485227,0.045146
+RandomizedSearchCV,30,30.822251,1.505274,"{'l2_regularization': np.float64(3.8287268393157046), 'learning_rate': np.float64(0.050370870987620504), 'max_depth': 6, 'max_features': np.float64(0.6559994838152918), 'max_leaf_nodes': 37, 'min_samples_leaf': 27}",1.514743,1.218035,0.502823,0.00947
+Bayesian (Optuna TPE),30,59.418152,1.477421,"{'learning_rate': 0.041359901534120634, 'max_depth': 8, 'min_samples_leaf': 11, 'l2_regularization': 0.44464800598345533, 'max_leaf_nodes': 54, 'max_features': 0.5684268181674017}",1.483229,1.1764,0.523296,0.005808

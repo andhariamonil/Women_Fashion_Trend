@@ -1,0 +1,13 @@
+model,search,param,value
+ElasticNet,GridSearchCV,elasticnet__alpha,0.1
+ElasticNet,GridSearchCV,elasticnet__l1_ratio,0.1
+RandomForest,RandomizedSearchCV,max_depth,14.0
+RandomForest,RandomizedSearchCV,max_features,0.7100459770841705
+RandomForest,RandomizedSearchCV,min_samples_leaf,3.0
+RandomForest,RandomizedSearchCV,n_estimators,326.0
+HistGradientBoosting,Bayesian (Optuna TPE),learning_rate,0.041359901534120634
+HistGradientBoosting,Bayesian (Optuna TPE),max_depth,8.0
+HistGradientBoosting,Bayesian (Optuna TPE),min_samples_leaf,11.0
+HistGradientBoosting,Bayesian (Optuna TPE),l2_regularization,0.44464800598345533
+HistGradientBoosting,Bayesian (Optuna TPE),max_leaf_nodes,54.0
+HistGradientBoosting,Bayesian (Optuna TPE),max_features,0.5684268181674017

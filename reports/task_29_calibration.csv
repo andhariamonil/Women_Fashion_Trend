@@ -1,0 +1,2 @@
+intercept,slope,slope_ci_low,slope_ci_high,r2_actual_on_pred,interpretation
+-0.526978,1.058465,1.020304,1.096627,0.604864,slope > 1: model under-disperses

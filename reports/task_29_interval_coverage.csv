@@ -1,0 +1,13 @@
+split,coverage,n,target,level,pred_bin,mean_width
+holdout,0.88472,373,0.9,overall,,
+train_cv_oof,0.89821,1562,0.9,overall,,
+holdout,0.89855,69,,by_pred_bin,0.0,3.36753
+holdout,0.91803,61,,by_pred_bin,1.0,4.38724
+holdout,0.78667,75,,by_pred_bin,2.0,4.84177
+holdout,0.89011,91,,by_pred_bin,3.0,5.06504
+holdout,0.93506,77,,by_pred_bin,4.0,4.77388
+train_cv_oof,0.89776,313,,by_pred_bin,0.0,3.36753
+train_cv_oof,0.89776,313,,by_pred_bin,1.0,4.38724
+train_cv_oof,0.90032,311,,by_pred_bin,2.0,4.84177
+train_cv_oof,0.89744,312,,by_pred_bin,3.0,5.06504
+train_cv_oof,0.89776,313,,by_pred_bin,4.0,4.77388

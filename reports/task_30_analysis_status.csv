@@ -1,0 +1,2 @@
+task,status,run_at,input_file,rows_used,recommend_threshold_rating,positive_rate,n_features,final_sampler,final_penalty,final_C,nonzero_coefficients,cv_pr_auc,holdout_roc_auc,holdout_pr_auc,holdout_f1_tuned,rf_reference_roc_auc,tuned_threshold,output_dataset
+Task 30 - Logistic regression (recommendation),completed,2026-11-27T16:14:29,womens_clothing_rating_sentiment_encoded.csv,1211,4.04,0.308,26,none,ElasticNet,0.01,2,0.4969,0.6603,0.4886,0.496,0.7425,0.3,womens_clothing_recommendation_features.csv

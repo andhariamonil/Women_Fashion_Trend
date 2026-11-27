@@ -1,0 +1,5 @@
+model,threshold,roc_auc,pr_auc,balanced_accuracy,f1,precision,recall,mcc,brier,positive_rate_baseline_pr_auc
+Logistic (none/ElasticNet) @0.5,0.5,0.660317,0.48856,0.5,0.0,0.0,0.0,0.0,0.201597,0.306931
+Logistic (none/ElasticNet) @tuned,0.3,0.660317,0.48856,0.607143,0.496,0.394904,0.666667,0.197796,0.201597,0.306931
+Logistic best-PR-AUC (SMOTE/ElasticNet) @0.5,0.5,0.660113,0.486764,0.620661,0.493023,0.434426,0.569892,0.226948,0.230312,0.306931
+RandomForest (black-box reference) @0.5,0.5,0.742499,0.561904,0.654455,0.516854,0.541176,0.494624,0.317135,0.189054,0.306931
